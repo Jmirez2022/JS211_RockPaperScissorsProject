@@ -21,6 +21,23 @@ const rockPaperScissors = (hand1, hand2) => {
 // 1. User2 input of rock, paper, or scissors.
 // 1. Compare User1 input to User2 input.
 // 1. If User1 input is 'rock' and User2 input is 'scissors', User1 wins.
+if (hand1 === 'rock') {
+  if (hand2 === 'rock') {
+    return "It's a tie!";
+  } 
+}
+
+if (hand1 === 'paper') {
+  if (hand2 === 'paper') {
+    return "It's a tie!";
+  } 
+}
+
+if (hand1 === 'scissors') {
+  if (hand2 === 'scissors') {
+    return "It's a tie!";
+  } 
+}
 if (hand1 === 'scissors') {
   if (hand2 === 'paper') {
     return "Hand one wins!";
@@ -37,11 +54,7 @@ if (hand1 === 'rock') {
   }
 }
 // 1. If User1 input is 'rock' and User2 input is 'rock', it's a tie.
-if (hand1 === 'rock') {
-  if (hand2 === 'rock') {
-    return "It's a tie!";
-  } 
-}
+
 // 1. If User1 input is 'paper' and User2 input is 'rock', User1 wins.
 if (hand1 === 'paper') {
   if (hand2 === 'rock') {
@@ -60,11 +73,7 @@ if (hand1 === 'paper') {
 }
 
 // 1. If User1 input is 'paper' and User2 input is 'paper', it's a tie.
-if (hand1 === 'paper') {
-  if (hand2 === 'paper') {
-    return "It's a tie!";
-  } 
-}
+
 
 // 1. If User1 input is 'scissors' and User2 input is 'paper', User1 wins.
 if (hand1 === 'scissors') {
@@ -84,11 +93,7 @@ if (hand1 === 'scissors') {
 }
 // 1. If User1 input is 'scissors' and User2 input is 'scissors', it's a tie.
 
-if (hand1 === 'scissors') {
-  if (hand2 === 'scissors') {
-    return "It's a tie!";
-  } 
-}
+
   
 }
 
